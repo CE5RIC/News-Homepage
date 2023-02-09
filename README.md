@@ -10,6 +10,11 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 To do this challenge, you need a good understanding of HTML and CSS.
 
+
+You can check out my result over here:
+
+https://cedricnewspage.netlify.app/
+
 The challenge
 Your challenge is to build out this news website homepage and get it looking as close to the design as possible.
 
