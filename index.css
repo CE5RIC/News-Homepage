@@ -13,6 +13,13 @@ html {
     font-size: 15px;
 }
 
+body {
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 4rem;
+}
+
+
 
 img {
     max-width: 100%;
@@ -47,6 +54,7 @@ padding-top: 0;
 
 .showcase h1 {
 font-size: 2rem;
+font-weight: 800;
 color: hsl(240, 100%, 5%);
 margin: 1rem 0;
 }
@@ -135,6 +143,48 @@ cursor: pointer;
     font-size: 1.25rem;
     color:  hsl(240, 100%, 5%);
     margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .header {
+        padding: 2rem 1.25rem;
+    }
+
+    .showcase {
+    display: flex;  
+    gap: 2rem;
+    }
+
+    .showcase h1 {
+        font-size: 3rem;
+    }
+
+    .showcase > div:first-child article {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 2rem;
+place-items: center;
+margin-top: 2rem;
+    }
+
+    .showcase > div:last-child {
+        margin-top: 0;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       
+    }
 }
 
 
